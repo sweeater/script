@@ -33,3 +33,12 @@ Silahkan Restart Service.
 Jika Statsus Service Masih Off
 Silahkan Reboot vps kalian
 ```
+
+### IZIN ROOT VPS
+```
+sudo-i
+passwd
+nano /etc/ssh/sshd_config
+syaytemctl restart ssh
+exit
+```
