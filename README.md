@@ -36,7 +36,7 @@ Silahkan Reboot vps kalian
 
 ### IZIN ROOT VPS
 ```
-sudo-i
+sudo -i
 passwd
 nano /etc/ssh/sshd_config
 syaytemctl restart ssh
