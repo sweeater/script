@@ -39,6 +39,6 @@ Silahkan Reboot vps kalian
 sudo -i
 passwd
 nano /etc/ssh/sshd_config
-syaytemctl restart ssh
+systemctl restart ssh
 exit
 ```
