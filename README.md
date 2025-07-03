@@ -44,6 +44,9 @@ exit
 ```
 ### DOWN UBUNTU 20
 ```
+link iso
+https://releases.ubuntu.com/20.04/ubuntu-20.04.6-live-server-amd64.iso
+
 nano /etc/apt/sources.list
 deb [check-date=no] file:///cdrom focal main restricted
 tambahkan pagar # didepan
