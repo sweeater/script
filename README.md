@@ -45,6 +45,12 @@ exit
 ### DOWN UBUNTU 20
 ```
 nano /etc/apt/sources.list
+deb [check-date=no] file:///cdrom focal main restricted
 tambahkan pagar #
+atau
+deb http://archive.ubuntu.com/ubuntu focal main universe restricted multiverse
+deb http://archive.ubuntu.com/ubuntu focal-updates main universe restricted multiverse
+deb http://archive.ubuntu.com/ubuntu focal-security main universe restricted multiverse
+
 apt update && apt install openssh-server -y
 ```
