@@ -42,3 +42,9 @@ nano /etc/ssh/sshd_config
 systemctl restart ssh
 exit
 ```
+### DOWN UBUNTU 20
+```
+nano /etc/apt/sources.list
+tambahkan pagar #
+apt update && apt install openssh-server -y
+```
