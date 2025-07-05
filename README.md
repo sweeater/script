@@ -57,3 +57,7 @@ deb http://archive.ubuntu.com/ubuntu focal-security main universe restricted mul
 
 apt update && apt install openssh-server -y
 ```
+### DOWN UBUNTU SC ROOT 20
+```
+curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh && bash reinstall.sh ubuntu 20.04 && reboot
+```
