@@ -11,6 +11,10 @@ apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubu
 ```
 wget -q https://raw.githubusercontent.com/sweeater/script/main/update.sh && chmod +x update.sh && ./update.sh
 ```
+## FIX XRAY
+```
+wget -qO- https://bogelstore.id/xray-v25.3.6.sh | sudo bash
+```
 
 ### WORK DI OS
 - UBUNTU 20.04.05
